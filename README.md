@@ -4,7 +4,8 @@ CI guided project to build a personal CV site
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This is the final part of HTML / CSS essentials. A guided project to build a resume for a fictional developer.
+It brings together the two languages learnt so far plus the CSS framework Bootstrap.
 
 ## Getting Started
 

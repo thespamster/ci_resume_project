@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/* ---- colours ---- */
+/*--------------------------------------------Colors*/
 
 .bg-color-name-title {
     background-color: #676767;
+}
+
+.bg-color-three-reasons {
+    background-color: #fff;
 }
 
 .ui-menu-color-home {
@@ -22,9 +26,29 @@
     background-color: #525252;
 }
 
-/* ---- special paddings/margins/texts ---- */
+.row-table {
+    display: table;
+}
 
-h1,h2,h3,h4 {
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/* ----------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
 }
 
@@ -56,17 +80,17 @@ h1,h2,h3,h4 {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
-    margin-bottom: 40px;    
+    margin-bottom: 40px;
 }
 
-/* ---- heading ---- */
+/*--------------------------------------------Heading*/
 
 header {
     margin: 0;
 }
 
 .heading {
-    margin-left:50px;
+    margin-left: 50px;
 }
 
 .logo {
@@ -75,9 +99,9 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .name {
@@ -85,7 +109,7 @@ header {
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
-    color: #ffffff;
+    color: #fff;
 }
 
 .title {
@@ -94,67 +118,65 @@ header {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: #ffffff;
+    color: #fff;
 }
 
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
 
-.menu-container {
+.menucontainer {
     font-size: 0;
 }
-
-
-#nav {
-    margin: 0;
-}
-
 
 #nav li {
     font-size: 14px;
     padding: 0;
 }
 
-.menu-item {
+#nav {
+    margin: 0;
+}
+
+.menuitem {
     height: 120px;
     text-align: center;
     padding: 0;
 }
 
-.menu-item a {
+.menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
     height: 120px;
 }
 
-.menu-item a i {
-    padding-top: 32px;
+.menuitem a i {
+    padding-top: 22px;
     display: block;
     color: #fafafa;
     font-size: 26px;
 }
 
-.menu-item span {
+.menuitem span {
     display: block;
     width: 100%;
     padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
-    font-size:14px;
+    font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
 }
 
-/* ---- hover.css ---- */
+/*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background: rgb(0,0,0,0.2);
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
-/* ---- footer ---- */
+/* ----------------------------------------Footer */
 
 footer {
     background-color: #525252;
@@ -204,4 +226,15 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/* ----------------------------------------Three Reasons */
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #e67e22;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }

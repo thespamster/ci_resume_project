@@ -48,4 +48,4 @@ Gavin Brown
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [ode Institute](https://codeinstitute.net/)
+* [Code Institute](https://codeinstitute.net/)

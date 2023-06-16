@@ -4,8 +4,9 @@ CI guided project to build a personal CV site
 
 ## Description
 
-This is the final part of HTML / CSS essentials. A guided project to build a resume for a fictional developer.
-It brings together the two languages learnt so far plus the CSS framework Bootstrap.
+This is the final part of HTML / CSS essentials, the first two modules in my Level 5 Web Application Diploma. 
+A guided project to build a resume for a fictional developer.
+It brings together the two languages I have learnt so far plus the CSS library Bootstrap.
 
 ## Getting Started
 

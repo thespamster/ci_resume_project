@@ -1,6 +1,6 @@
-# Project Title
+# Resume Project
 
-Simple overview of use/purpose.
+CI guided project to build a personal CV site
 
 ## Description
 

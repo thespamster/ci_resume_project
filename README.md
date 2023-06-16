@@ -9,7 +9,8 @@ It brings together the two languages learnt so far plus the CSS framework Bootst
 
 ## Getting Started
 
-
+can be viewed at the Github pages address:
+[Resume Project](https://thespamster.github.io/resume-project/)
 ## Authors
 
 Contributors names and contact info
